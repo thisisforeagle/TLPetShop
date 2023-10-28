@@ -1,0 +1,115 @@
+/* CSS file for the About PS Page */
+
+/* Uncomment the blow to help with content border positioning */
+/* * {
+  outline: 1px solid #f00 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+} */
+
+img {
+  border-radius: 10px;
+}
+
+/* Title */
+.about-title {
+  height: 400px;
+  padding: 10px 20px;
+  background-image: url('../Images/aboutbanner.jpg');
+  background-size: cover;
+  background-position: center 35%;
+}
+.about-title h3 {
+  width: 50%;
+}
+
+/* Section 1 */
+.about-body1 {
+  height: 500px;
+}
+
+/* Section 2 */
+.about-body2 {
+  height: 520px;
+}
+
+/* Section 3 */
+.about-body3 {
+  height: 520px;
+}
+
+/* Video section */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 46px;
+  }
+  .title-text {
+    font-size: 80px;
+    padding-bottom: 10px;
+  }
+  .boxed-layout-container {
+    padding: 0 !important;
+  }
+  .page-section {
+    padding: 20px !important;
+  }
+  .about-title {
+    height: 200px;
+  }
+  .about-title h1 {
+    font-size: 50px;
+  }
+  .about-body1 {
+    height: 740px;
+  }
+  .about-body2 {
+    height: 790px;
+  }
+  .videoWrapper {
+    min-height: 315px;
+  }
+  .about-body3 {
+    height: 865px;
+  }
+  .img-container {
+    width: 100% !important;
+  }
+  img {
+    margin: 0 auto;
+  }
+  .content-container {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .center-vertically {
+    display: block !important;
+    height: unset !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .boxed-layout-container {
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .boxed-layout-container {
+    max-width: 1200px;
+  }
+}

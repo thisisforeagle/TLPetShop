@@ -1,0 +1,36 @@
+/* Page container */
+.boxed-layout-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* page section column styles */
+.two-column-layout-container .img-container {
+  width: 45%;
+  padding: 10px;
+}
+.two-column-layout-container .content-container {
+  width: 45%;
+  padding: 10px;
+  color: white;
+}
+.left-side {
+  float: left;
+}
+.left-side img {
+  display: block;
+  margin-right: auto;
+}
+.right-side {
+  float: right;
+}
+.right-side img {
+  display: block;
+  margin-left: auto;
+}
+
+.page-section {
+  background-color: #162c57;
+}
