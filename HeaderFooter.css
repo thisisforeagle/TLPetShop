@@ -1,0 +1,197 @@
+/* Body CSS */
+/* Dont Change or Header/Navbar wont fill page :) */
+
+body {
+    margin: 0%;
+}
+
+/*------------------*/
+
+
+
+/* I didnt know what label these fit into */
+  
+.line-break {
+    width: 95%;
+    height: 5px;
+    background-color: #162C57;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+}
+  
+.top-of-page {
+    width: 100%;
+    background-color: #162C57; 
+    height: 60px; 
+    text-align: center;
+}
+  
+/*------------------*/
+
+
+
+/* Fonts and text Styling */
+
+.basic-font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+  
+.title-text {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 3px #162C57;
+    font-size: 70pt;
+    color: #B42B38;
+    margin: 0;
+    padding: 0;
+}
+  
+.top-text {
+    margin: 0px;
+    padding: 16px;
+    font-size: 17pt;
+}
+  
+/*------------------*/
+
+
+  
+/* NavBar Classes */
+  
+.navbar {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    overflow: hidden;
+    background-color: #162C57;
+  
+    /*Makes navbar stick to top*/
+    /*Not sure how i feel about this part*/
+    position: sticky;
+    top: 0;
+  
+}
+  
+.navbar-item {
+  
+    float: left;
+    width: 25%;
+  
+}
+  
+.navbar-item a {
+  
+    border-color: #B42B38;
+    border-style: solid;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+  
+    height: 30px;
+    font-size: 20pt;
+  
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  
+    padding: 16px;
+  
+}
+  
+.navbar a:hover {
+    background-color: #B42B38;
+}
+  
+/*------------------*/
+
+
+
+/*Contact section on footer*/
+  
+.contact {
+    width: 40%;
+    margin-left: 3%; 
+    float: left;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+  
+.contact-image {
+    width: 40%;
+    margin-left: 6%;
+    float: left;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 60px;
+}
+  
+.contact h3{
+    font-size: 6vw;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+  
+.contact p{
+    font-size: 2.5vw;
+    text-align: left;
+}
+  
+.contact p b{
+    font-size: 2.5vw;
+    text-align: left;
+    text-decoration: underline;
+}
+  
+.contact a {
+    text-decoration: underline;
+    color: white;
+}
+  
+/*------------------*/
+
+
+
+/*Footer*/
+
+.footer {
+    background-color: #B42B38; 
+    width: 100%;
+  }
+  
+  .footer-links {
+    background-color: #162C57;
+    width: 90%;
+    margin: auto;
+    font-size: 3vw;
+    padding: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-table tr {
+    width: 60%;
+  }
+  
+  .footer-table {
+    width: 60%;
+  }
+  
+  .footer-table tr td {
+    width: 70px;
+    text-align: left;
+  }
+  .footer-table tr th {
+    width: 70px;
+    text-align: left;
+  }
+  
+  /*------------------*/
